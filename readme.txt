@@ -6,3 +6,6 @@ Today is your birthday,My homeland
 如果大海能够，唤回曾经的爱
 ++++11
 +333333
+Git is a distributed version control system.
+Git is free software distributed under the GPL.
+Git has a mutable index called stage.
