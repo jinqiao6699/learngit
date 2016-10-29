@@ -1,0 +1,19 @@
+371.C02销货管理（称重异常处理-获取箱贴打印记录）
+	url:/wms/weighExceptionC02/getXTPrintRecord
+	参数：billId, ctCode
+	success:{
+		"result": [{
+			"printSort": 1
+		}],
+		"flag": 0,
+		"status": "success"
+	}
+	
+372.C02销货管理（称重异常处理-生成打印记录）
+	url:/wms/weighExceptionC02/insertPringtXTRcord
+	参数：billId, ctCode, printSort
+	success:{
+		"result": null,
+		"flag": 0,
+		"status": "success"
+	}
