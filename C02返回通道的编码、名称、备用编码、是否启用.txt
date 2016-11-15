@@ -1,0 +1,14 @@
+387.C02通道管理（返回通道的编码、名称、备用编码、是否启用）
+	url:/wms/channelManageC02/getChannel
+	参数：无
+	success:{
+		"result": [{
+			"isActive": "Y",
+			"bakChCode": 0,
+			"bakChName": null,
+			"chCode": 1,
+			"chName": "1"
+		}],
+		"flag": 0,
+		"status": "success"
+	}

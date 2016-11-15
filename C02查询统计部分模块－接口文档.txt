@@ -1,0 +1,44 @@
+368.C02查询统计（每日发车量-查询发车记录）
+	url:/wms/driveEverydayC02/queryLoadingRecords
+	参数：beginDate, endDate
+	success:{
+		"result": [{
+			"userName": "葛浩伟",
+			"vhNo": "京AAW161",
+			"createDate": "2016-10-13 02:28:40",
+			"uniqueCode": "1362158e-46be-4d1d-8573-fd9d73288ca0"
+		}],
+		"flag": 0,
+		"status": "success"
+	}
+	
+369.C02查询统计（托盘使用记录-根据托盘编号查询类似编号的所有托盘使用记录）
+	url:/wms/ctUseRecordC02/getContainerRecordsByCode
+	参数：containerCode, beginDate, endDate
+	success:{
+		"result": [{
+			"umName": "袋",
+			"ctCode": "3011000009",
+			"skuBarcode": "6921830106820",
+			"skuName": "老厨牛肉干香辣52g",
+			"qty": 1,
+			"createDate": "2016-10-03 00:01:06",
+			"skuCode": "25120",
+			"creator": "01100084"
+		}],
+		"flag": 0,
+		"status": "success"
+	}
+	
+370.C02查询统计（拣出物流箱-查询拣出物流箱）
+	url:/wms/pickedCtC02/queryPickBoxes
+	参数：beginDate, endDate
+	success:{
+		"result": [{
+			"ctCode": "2011013378",
+			"billNo": "PC111281140755045817895",
+			"pickDate": "2016-10-03 22:47:10"
+		}],
+		"flag": 0,
+		"status": "success"
+	}
