@@ -1,8 +1,12 @@
 qiaoqiaozhang
 jin tian shi nide shengri wo de zuguo
-++222zhang2
-Gzhangit is a distributed version control system.
-Git is free software distributed under the GPL.
-zhang
+zhangjinqiao
+jin tian shi ni de sheng ri , 
+tian wang gai di hu,
+bao ta zhen heyao.
+What's your name?
+My name is ZhangJinQiao.
+What are you going to be when you grow up?
+I'm going to be a actor.
 jinqiao
 zhangjinqiao

@@ -1,0 +1,11 @@
+repDal.DeleteTempReplenish()		/wms/cargoAdd/updateReplenishTmp			//可以复用
+repDal.InquiryBySku(a.SKUCode, tempQty * a.Qty, gid, a.IsCase)	/wms/cargoAdd/insertCargo		//需要写
+repDal.GetResultByGID(gid)			/wms/cargoAdd/getResultByGID				//完成
+
+TaskDal.Schedule(item, "144")		/wms/cargoAdd/schedule						//D写过
+
+replenishDal.InquiryStock()			/wms/storeStock/inquiryStock				//写过
+replenishDal.SaveBill()				/wms/storeStock/saveBill					//写过
+
+
+QueryReplenishStock

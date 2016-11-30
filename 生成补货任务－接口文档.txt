@@ -1,0 +1,9 @@
+381.当前订单量（生成补货任务）
+	url:/wms/frmShowNeedSKU/insertCargo
+	参数：skuCode, Integer shortQty, gId, isCase
+		（isCase传值就是混合仓，不传则是整货仓）
+	success:{
+		"result": null,
+		"flag": 0,
+		"status": "success"
+	}
